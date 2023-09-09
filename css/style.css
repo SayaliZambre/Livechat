@@ -1,0 +1,79 @@
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgb(240, 233, 233), rgb(18, 16, 21))
+    /* background-image: https://unsplash.com/photos/a-tall-tower-towering-over-a-city-covered-in-fog-wGbg4uCAb08.; */
+    /* background-image: url('https://unsplash.com/photos/a-tall-tower-towering-over-a-city-covered-in-fog-wGbg4uCAb08'); */
+    /* background-size: cover; */
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+
+h1{
+    margin-top: 12px;
+    font-size: 30px;
+    font-family: 'segoe UI' , Tahoma, Geneve, Verdana, sans-serif;
+    text-align: center;
+}
+
+.container{
+    max-width: 955px;
+    background-color: 2px solid black;
+    border-radius: 3px;
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+}
+
+.message{
+    background-color: rgb(180,177,177);
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.left{
+    float: left;
+     clear: both;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 1085px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#messageInp{
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    font-size: 22px;
+}
+
+.btn{
+    width: 9%;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+
